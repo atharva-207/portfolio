@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -11,18 +11,23 @@
 </head>
 
 <body>
+
     <header>
         <nav>
             <h2 class="logo">AV.</h2>
 
             <div class="nav-links">
                 <a href="#home">Home</a>
-                <a href="#works">Works</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
                 <a href="#education">Education</a>
                 <a href="#contact">Contact</a>
             </div>
         </nav>
     </header>
+
+
     <section id="home" class="home">
 
         <p class="tag">CS & AI STUDENT</p>
@@ -35,78 +40,185 @@
             Student at Scaler School of Technology
         </p>
 
+        <p class="intro">
+            I am a Computer Science and AI student interested in
+            building useful applications and learning new technologies.
+        </p>
+
         <p class="quote">
             "Engineering is not just about building things,
             it's about finding better ways to solve problems."
         </p>
 
         <div class="buttons">
-
-            <a href="#works" class="btn primary">
+            <a href="#projects" class="btn primary">
                 View My Work
             </a>
 
             <a href="#contact" class="btn secondary">
                 Contact Me
             </a>
-
         </div>
 
     </section>
-    <section id="works" class="page">
 
-        <p class="tag">PORTFOLIO</p>
 
-        <h1>
-            Things I've <span>Worked On</span>
-        </h1>
-    </section>
-    <section id="education" class="page">
+    <section id="about" class="page">
 
         <p class="tag">ABOUT ME</p>
 
         <h1>
-            Education & <span>Skills</span>
+            A Little <span>About Me</span>
         </h1>
 
+        <div class="about-box">
+            <p>
+                I'm Atharva Verma, a Computer Science and AI student
+                at Scaler School of Technology. I enjoy learning
+                programming, web development and problem solving.
+            </p>
 
-        <div class="info">
+            <p>
+                Currently, I am developing my foundation in Java,
+                HTML and CSS while working on small projects to
+                improve my practical skills.
+            </p>
+        </div>
 
-            <div class="info-box">
+    </section>
 
-                <h2>School</h2>
 
-                <p>
-                    City Montessori School
-                </p>
+    <section id="skills" class="page">
 
+        <p class="tag">WHAT I KNOW</p>
+
+        <h1>
+            My <span>Skills</span>
+        </h1>
+
+        <div class="skills-grid">
+
+            <div class="skill-card">
+                <h2>Java</h2>
+                <p>Programming & Problem Solving</p>
             </div>
 
-
-            <div class="info-box">
-
-                <h2>College</h2>
-
-                <p>
-                    Scaler School of Technology
-                </p>
-
+            <div class="skill-card">
+                <h2>HTML</h2>
+                <p>Web Page Structure</p>
             </div>
 
-
-            <div class="info-box">
-
-                <h2>Skills</h2>
-
-                <p>Java</p>
-                <p>HTML</p>
-                <p>CSS</p>
-
+            <div class="skill-card">
+                <h2>CSS</h2>
+                <p>Web Design & Layout</p>
             </div>
 
         </div>
 
     </section>
+
+
+    <section id="projects" class="page">
+
+        <p class="tag">MY WORK</p>
+
+        <h1>
+            Things I've <span>Worked On</span>
+        </h1>
+
+        <div class="projects-grid">
+
+            <div class="project-card">
+                <p class="project-number">01</p>
+
+                <h2>Portfolio Website</h2>
+
+                <p>
+                    A personal portfolio website created using
+                    HTML and CSS to showcase my education,
+                    skills and projects.
+                </p>
+
+                <span class="project-tech">
+                    HTML · CSS
+                </span>
+            </div>
+
+
+            <div class="project-card">
+                <p class="project-number">02</p>
+
+                <h2>Student Profile</h2>
+
+                <p>
+                    A simple student profile page containing
+                    personal information, education and skills
+                    using basic web development.
+                </p>
+
+                <span class="project-tech">
+                    HTML · CSS
+                </span>
+            </div>
+
+
+            <div class="project-card">
+                <p class="project-number">03</p>
+
+                <h2>Java Programs</h2>
+
+                <p>
+                    A collection of beginner Java programs created
+                    while learning programming fundamentals,
+                    functions and problem solving.
+                </p>
+
+                <span class="project-tech">
+                    Java
+                </span>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section id="education" class="page">
+
+        <p class="tag">MY JOURNEY</p>
+
+        <h1>
+            Education & <span>Experience</span>
+        </h1>
+
+        <div class="education-list">
+
+            <div class="education-box">
+                <span class="education-year">CURRENT</span>
+
+                <h2>Scaler School of Technology</h2>
+
+                <p>
+                    Computer Science & AI
+                </p>
+            </div>
+
+
+            <div class="education-box">
+                <span class="education-year">SCHOOL</span>
+
+                <h2>City Montessori School</h2>
+
+                <p>
+                    School Education
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
     <section id="contact" class="page contact-page">
 
         <p class="tag">GET IN TOUCH</p>
@@ -120,42 +232,45 @@
             discussing new ideas.
         </p>
 
-
         <div class="contact-links">
 
-
-            <!-- Email -->
-
             <a
-                href="mailto:atharva@example.com"
+                href="mailto:atharva.26bcs10101@sst.scaler.com"
                 class="contact-card"
             >
-
                 <h3>Email</h3>
 
                 <p>
                     atharva.26bcs10101@sst.scaler.com
                 </p>
-
             </a>
+
+
             <a
                 href="https://www.linkedin.com/in/atharva-verma-b84992421/"
                 target="_blank"
+                rel="noopener noreferrer"
                 class="contact-card"
             >
-
                 <h3>LinkedIn</h3>
 
                 <p>
                     Connect with me on LinkedIn
                 </p>
-
             </a>
-
 
         </div>
 
     </section>
+
+
+    <footer>
+        <p>© 2026 Atharva Verma</p>
+
+        <p>
+            Built with HTML & CSS
+        </p>
+    </footer>
 
 </body>
 
