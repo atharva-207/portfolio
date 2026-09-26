@@ -1,0 +1,202 @@
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+}
+header {
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+nav {
+    max-width: 1100px;
+    margin: auto;
+    height: 80px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 30px;
+}
+
+.logo {
+    font-size: 25px;
+    color: white;
+}
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links a {
+    color: gray;
+    text-decoration: none;
+    font-size: 14px;
+
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: white;
+}
+.home {
+    max-width: 900px;
+    margin: auto;
+
+    min-height: calc(100vh - 80px);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 40px 30px;
+}
+.tag {
+    color: #777777;
+    font-size: 13px;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+.home h1 {
+    font-size: 58px;
+    font-weight: 500;
+    line-height: 1.1;
+}
+.home h1 span,
+.page h1 span {
+    color: #b7b7b7;
+}
+
+.college {
+    margin-top: 20px;
+    color: #999999;
+    font-size: 18px;
+}
+
+.quote {
+    max-width: 600px;
+
+    margin-top: 40px;
+    padding-left: 20px;
+
+    border-left: 2px solid #555555;
+
+    color: #888888;
+    line-height: 1.7;
+    font-size: 16px;
+}
+.buttons {
+    display: flex;
+    gap: 15px;
+    margin-top: 40px;
+}
+.btn {
+    text-decoration: none;
+    padding: 13px 24px;
+    font-size: 14px;
+
+    border: 1px solid #444444;
+
+    transition: 0.3s;
+}
+
+.primary {
+    background-color: #e5e5e5;
+    color: #111111;
+}
+
+.primary:hover {
+    background-color: #ffffff;
+}
+
+.secondary {
+    color: #dddddd;
+    background-color: transparent;
+}
+
+.secondary:hover {
+    background-color: #1d1d1d;
+}
+.page {
+    max-width: 1000px;
+    margin: auto;
+
+    min-height: calc(100vh - 80px);
+
+    padding: 100px 30px;
+}
+
+.page h1 {
+    font-size: 48px;
+    font-weight: 500;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 50px;
+    max-width: 650px;
+}
+
+.info-box {
+    border: 1px solid #292929;
+    padding: 25px 30px;
+    min-height: 120px;
+}
+
+.info-box h2 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.info-box p {
+    color: #888888;
+    margin-bottom: 8px;
+}
+.contact-page {
+    text-align: left;
+}
+
+.contact-text {
+    margin-top: 25px;
+    color: #888888;
+    max-width: 500px;
+    line-height: 1.7;
+}
+
+.contact-links {
+    display: flex;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+.contact-card {
+    width: 300px;
+
+    border: 1px solid #292929;
+    padding: 25px;
+
+    text-decoration: none;
+    color: #ffffff;
+
+    transition: 0.3s;
+}
+
+.contact-card:hover {
+    background-color: #191919;
+    border-color: #444444;
+}
+
+.contact-card h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.contact-card p {
+    color: #888888;
+    font-size: 14px;
+}
