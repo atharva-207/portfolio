@@ -47,11 +47,11 @@ nav {
 } 
  
 .brand img { 
-    width: 50px; 
-    height: 50px; 
+    width: 63px; 
+    height: 63px; 
     border-radius: 50%; 
     object-fit: cover; 
-    border: 1px solid #444444; 
+    border: 1px solid #030303; 
 } 
  
 .logo { 
@@ -159,7 +159,8 @@ nav {
  
 .secondary:hover { 
     background-color: #1d1d1d; 
-    transform: translateY(-2px); 
+    border-color: white;
+    transform: translateY(-5px); 
 } 
  
 .page { 
@@ -202,8 +203,8 @@ nav {
 } 
  
 .skill-card:hover { 
-    background-color: #191919; 
-    border-color: #444444; 
+    background-color: #140e0e; 
+    border-color: #f2f1f1; 
     transform: translateY(-5px); 
 } 
  
@@ -233,8 +234,8 @@ nav {
 } 
  
 .project-card:hover { 
-    background-color: #191919; 
-    border-color: #444444; 
+    background-color: #141010; 
+    border-color: #fffdfd; 
     transform: translateY(-5px); 
 } 
  
@@ -279,8 +280,8 @@ nav {
 } 
  
 .education-box:hover { 
-    background-color: #191919; 
-    border-color: #444444; 
+    background-color: #0b0909; 
+    border-color: #f1eded; 
     transform: translateX(5px); 
 } 
  
@@ -320,7 +321,7 @@ nav {
  
 .contact-card { 
     width: 300px; 
-    border: 1px solid #292929; 
+    border: 1px solid #1a1616; 
     padding: 25px; 
     text-decoration: none; 
     color: #ffffff; 
@@ -328,8 +329,8 @@ nav {
 } 
  
 .contact-card:hover { 
-    background-color: #191919; 
-    border-color: #444444; 
+    background-color: #1b1414d9; 
+    border-color: #c8c4c4; 
     transform: translateY(-4px); 
 } 
  
@@ -350,9 +351,20 @@ footer {
     padding: 30px; 
     display: flex; 
     justify-content: space-between; 
-    color: #666666; 
-    font-size: 13px; 
+    color: #fcfefe66; 
+    font-size: 18px; 
 } 
+.skill-card h2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.skill-logo {
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+}
  
 @keyframes fadeIn { 
     from { 
